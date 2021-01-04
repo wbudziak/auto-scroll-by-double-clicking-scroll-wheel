@@ -1,4 +1,6 @@
 let timeLeft = 0;
+// const yourElement = document.querySelector(".yourElement")
+
 document.body.addEventListener('auxclick' ,function(e){
     timeLeft +=1;
     setTimeout(function(){
@@ -7,7 +9,12 @@ document.body.addEventListener('auxclick' ,function(e){
     if(timeLeft === 2){
         scrollTo({
             top: 0,
-            behavior: 'smooth',
+            behavior: 'smooth'
           });     
+    // if you want scroll to the specific element
+
+        // yourElement.scrollIntoView({
+        //     behavior: 'smooth'
+        // });
     }
 })

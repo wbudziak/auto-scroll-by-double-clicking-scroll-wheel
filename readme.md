@@ -1,0 +1,1 @@
+## Just add the script to your HTML file. Now you can scroll the page up (or to the specific element if you want) by double clicking the scroll wheel.
